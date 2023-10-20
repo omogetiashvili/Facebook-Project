@@ -1,0 +1,139 @@
+@media screen and (min-width: 1024px){
+  body{
+    background-color: #f0f2f5;
+  }
+  .container {
+    width: 100%;
+    padding-top: 150px;
+    flex-direction: row; 
+    column-gap: 140px;
+  }
+
+  .fblogodiv{
+    position: relative;
+    top: -43px;
+  }
+
+  .formsdiv{
+    position: relative;
+    top: -15px;
+    left: -50px;
+  }
+
+  .formsdiv{
+    width: 30%;
+  }
+
+  .forgot_or_create_div{
+    display: none;
+  }
+
+  .languages{
+    display: none;
+  }
+
+  .meta{
+    display: none;
+  }
+
+  .fblogo{
+    width: 320px;
+    height: 106px;
+  }
+
+  .imgtextdiv{
+    display: flex;
+    margin-left: 40px;
+    width: 500px;
+  }
+  .imgtextdiv h2{
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+  }
+
+  .laptopanchor{
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .laptopanchor a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .buttonanc{
+    text-decoration: none;
+    color: white;
+  }
+
+  .formsdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 406px;
+    border-radius: 8px;
+    background-color: white;
+    position: relative;
+    right: 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+  }
+
+  input{
+    background-color: white;
+    height: 50px;
+  }
+  input:focus{
+    outline: auto blue;
+
+  }
+  form{
+    row-gap: 10px;
+  }
+  #sbmt{
+    font-size: 21px;
+    cursor: pointer;
+  }
+  .linedeskop{
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    opacity: 0.3;
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .createbuttondesktopdiv{
+    display: flex;
+    margin-top: 25px;
+  }
+  .createbtndesk{
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 6px;
+    line-height: 48px;
+    font-family: inherit;
+    color: white;
+    padding: 0 16px;
+    border: 1px solid #36a420;
+    background-color: #42b72a;
+  }
+
+  .laptopanchor a{
+    color: #1877f2;
+    font-family: inherit;
+  }
+
+  .createbtndesk:hover{
+    transition: 0.5s;
+    background-color: #3d972b;
+  }
+  .createbtndesk:active{
+    transition: 1s;
+    opacity: 0.1;
+  }
+}

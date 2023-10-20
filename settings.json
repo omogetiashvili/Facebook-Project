@@ -1,0 +1,6 @@
+{
+  "liveServer.settings.CustomBrowser": "default",
+  "liveServer.settings.CustomBrowserArgs": ["--incognito"],
+  "liveServer.settings.root": "/",
+  "liveServer.settings.CustomLiveServer": "index.html"
+}
